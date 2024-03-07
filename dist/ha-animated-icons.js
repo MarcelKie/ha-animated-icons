@@ -24,7 +24,7 @@ async function getIconList() {
 }
 
 window.customIconsets = window.customIconsets || {};
-window.customIconsets["phu"] = getIcon;
+window.customIconsets["ani"] = getIcon;
 
 window.customIcons = window.customIcons || {};
-window.customIcons["phu"] = { getIcon, getIconList };
+window.customIcons["ani"] = { getIcon, getIconList };
